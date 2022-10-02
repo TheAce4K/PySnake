@@ -60,7 +60,7 @@ if __name__ == '__main__':
                     paintcell(i,j,red)
                 elif board.getCells()[i,j].getcelltype() == 'SNAKE':
                     paintcell(i,j,green)
-        window.after(100)
+        window.after(50)
         window.update()
         game.update()
 
